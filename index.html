@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./assets/img/logo.png" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="uil uil-times" onclick="tutup()"></i>
+          </ul>
+          <i class="uil uil-bars" onclick="buka()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Hello There, Welcome</p>
+          <h1>
+            I'm <span>Lisvindanu</span> <br />
+            From Unpas
+          </h1>
+          <button class="tombol" type="button">
+            <a class="kontakbutton" href="#contact">Contact Me!</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- =================== About ================= -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./assets/img/danu2.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="NamaJudulAbout">About <span>Me</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              consectetur amet itaque voluptatum facilis esse, veritatis
+              nesciunt numquam neque porro, alias harum enim quaerat est
+              reiciendis libero nobis dicta molestias sint illo! Sequi aliquam
+              consectetur recusandae assumenda ullam illum tempora! Sunt
+              assumenda a illum rem repellat magnam ratione officia officiis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================== education ===================== -->
+    <div id="education">
+      <div class="container">
+        <h1 class="sub-tittle-edu">Education</h1>
+        <div class="Education-list">
+          <div>
+            <h2>Teknik Informatika</h2>
+            <p>Saat ini masih menjadi mahasiswa baru di Universitas Pasundan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hobbies -->
+    <div id="hobbies">
+      <div class="container">
+        <h1 class="judul-hobi">My Hobbies</h1>
+        <div class="hobbies-list">
+          <div>
+            <i class="fi-xnsuxl-gamepad-solid"></i>
+            <h2>Gaming</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              maxime earum quasi architecto provident, dignissimos eligendi,
+              enim deleniti obcaecati quaerat nemo! Non animi maxime
+              exercitationem reprehenderit corporis qui, architecto nulla.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="uil uil-headphones"></i>
+            <h2>Music</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              maxime earum quasi architecto provident, dignissimos eligendi,
+              enim deleniti obcaecati quaerat nemo! Non animi maxime
+              exercitationem reprehenderit corporis qui, architecto nulla.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="uil uil-palette"></i>
+            <h2>Drawing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              maxime earum quasi architecto provident, dignissimos eligendi,
+              enim deleniti obcaecati quaerat nemo! Non animi maxime
+              exercitationem reprehenderit corporis qui, architecto nulla.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Project -->
+
+    <div id="project">
+      <div class="container">
+        <h1 class="project-title">My Project</h1>
+        <div class="project-list">
+          <div class="project">
+            <img
+              src="/itw2022_project1_223040038/assets/img/wpd.png"
+              alt="wpd"
+            />
+            <div class="layer">
+              <h3>Web Progamming Lisvin</h3>
+              <p>Berisi dokumentasi saya selama berkuliah</p>
+              <a href="https://www.youtube.com/channel/UCEJTgKxymhsJonaNTskHH5w"
+                ><i class="uil uil-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="contactme">Contact Me</h1>
+            <p>Lisvindanu015@gmail.com</p>
+            <p>082254223714</p>
+            <div class="sosmed-icon">
+              <a href="https://www.instagram.com/lisvindanu/"
+                ><i class="uil uil-facebook"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send?phone=6282254223714&text=Text%20Me"
+                ><i class="uil uil-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Pesan"
+                rows="6"
+                placeholder="Pesan"
+                required
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer">
+          <p>Web Programming Lisvin|2022</p>
+        </div>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
