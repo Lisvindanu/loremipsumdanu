@@ -78,13 +78,46 @@ nav ul li a:hover:after {
   color: aqua;
 }
 
-.tombol {
-  border-radius: 5px;
-  background: #262626;
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* display: inline-block;
+  color: white;
+  background: #4d6199;
+  border: 1px solid transparent;
+  padding: 12px 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all 0.55s ease; */
 }
 
-.kontakbutton {
-  list-style: none;
+.btn {
+  display: inline-block;
+
+  background: rgb(0, 0, 0);
+  border: 1px solid transparent;
+  padding: 12px 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all 0.55s ease;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid white;
+  transform: translateX(8px);
+}
+
+.btn a {
+  text-decoration: none;
+  color: aqua;
 }
 
 /* =================== About ================== */
@@ -330,6 +363,30 @@ form textarea {
   color: #fff;
   font-size: 18px;
   border-radius: 6px;
+}
+.btna {
+  display: inline-block;
+  color: white;
+  background: black;
+  border: 1px solid transparent;
+  padding: 12px 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all 0.55s ease;
+}
+
+.btna:hover {
+  background: transparent;
+  border: 1px solid white;
+  transform: translateX(8px);
+}
+
+.btna a {
+  text-decoration: none;
+  color: aqua;
 }
 
 .footer {
